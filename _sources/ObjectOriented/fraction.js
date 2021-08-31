@@ -7,7 +7,7 @@ Fraction.prototype.toString = function() {
     return this.numerator + " / " + this.denominator;
 }
 
-f = new Fraction(2,3);
+let f = new Fraction(2,3);
 console.log("f is " + f)
 
 // class Fraction {
@@ -32,6 +32,6 @@ console.log("f is " + f)
 
 
 
-x = new Fraction(2,3);
+let x = new Fraction(2,3);
 console.log("x is " + x)
 console.log(x.numerator)
